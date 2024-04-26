@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background-origin: padding-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20210402235143/background.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border-style: solid;
+            border-color: rgb(215, 249, 250);
+            padding: 2px;
+        }
+
+        .nav li {
+            float: right;
+            list-style: none;
+        }
+
+        .nav a {
+            align-content: baseline;
+            list-style: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 2rem;
+            font-weight: 550;
+            display: block;
+            padding: 5px 35px;
+            color: black;
+            text-decoration: none;
+            font-style: italic;
+        }
+
+        .content {
+            width: 100%;
+            position: absolute;
+            top: 20%;
+        }
+
+        .left {
+            margin-left: 5%;
+        }
+
+        .left h1 {
+            font-size: 145px;
+            color: rgb(73, 20, 220);
+            font-style: italic;
+        }
+
+        .right {
+            float: right;
+            margin-right: 10%;
+            margin-top: -5%;
+            display: flex;
+            align-items: center;
+        }
+
+        .right p {
+            font-size: 30px;
+            color: black;
+            font-weight: 555;
+            margin-right: 30px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">ARTISTS</a></li>
+            <li><a href="#">MUSIC</a></li>
+            <li><a href="#">HOME</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <h1>MY <br> SOUNDS</h1>
+        </div>
+
+        <div class="right">
+            <p><b>Music storage click here </b></p>
+        </div>
+    </div>
+    <div>
+    </div>
+</body>
+
+</html>
